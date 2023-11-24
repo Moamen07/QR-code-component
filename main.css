@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.main {
+  background: white;
+  width: 320px;
+  height: 500px;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  display: grid;
+}
+img {
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+}
+p.first {
+  font-weight: 900;
+  font-size: larger;
+}
+p.second {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+}
+div.author {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
